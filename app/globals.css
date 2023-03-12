@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  height: 100vh;
+  display: flex;
+  margin: 0;
+}
+
+.sidebar-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+.main-view-container {
+  width: 75%;
+  display: flex;
+  padding: 20px;
+}
